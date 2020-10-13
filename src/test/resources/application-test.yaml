@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    username: sa
+    password:
+    url: jdbc:h2:mem:<bankaccount>
+    driverClassName: org.h2.Driver
