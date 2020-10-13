@@ -1,4 +1,5 @@
-run from root:
+
+run from root (it needs jdk 1.8 and docker):
 ./gradlew build -x test && docker-compose up
 
 Requests:
