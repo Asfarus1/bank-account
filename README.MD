@@ -27,6 +27,6 @@ ERRORS:
     response example:
      body: Not enough money,  response status: 403
           
-3. Sun isn't positive (deposit or withdrawal operations)
+3. Sum isn't positive (deposit or withdrawal operations)
     response example:
      body: Sum must be positive,  response status: 400
