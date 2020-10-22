@@ -11,11 +11,11 @@ Requests:
     response example:
      body: {"id":1,"balance":0}, response status: 200
      
-3. Deposit: curl -X POST http://localhost:9090/accounts/1/deposit
+3. Deposit: curl -X POST http://localhost:9090/accounts/1/deposit -H 'content-type:application/json' -d '1'
     response example:
      body: , response status: 202
           
-4. Withdrawal: curl -X POST http://localhost:9090/accounts/1/withdrawal
+4. Withdrawal: curl -X POST http://localhost:9090/accounts/1/withdrawal -H 'content-type:application/json' -d '1'
     response example:
      body: , response status: 202
      
